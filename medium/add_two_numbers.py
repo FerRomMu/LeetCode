@@ -17,17 +17,12 @@ def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optio
     in reverse order, meaning the 1's digit is at the head of the list. The function 
     returns the sum as a new linked list in the same reversed order.
 
-    Parameters:
+    Params:
         l1 (Optional[ListNode]): The first linked list representing an integer.
         l2 (Optional[ListNode]): The second linked list representing an integer.
 
     Returns:
         Optional[ListNode]: A linked list representing the sum of the two integers.
-    
-    Notes:
-        - The input lists can be of different lengths.
-        - Carries from addition are handled.
-        - The resulting list may have an extra node if a carry remains after the final addition.
     
     Time Complexity: O(max(n, m)), where n and m are the lengths of l1 and l2.
     Space Complexity: O(max(n, m)) due to the new linked list allocation.
